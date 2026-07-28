@@ -176,7 +176,12 @@ Amount > Customer Limit
 ```
 
 ---
-
+📸 Screenshots
+📊 Dashboards
+<table> <tr> <td width="50%" valign="top"> <p align="center"><b>Fraud &amp; Transaction Overview</b></p> <img src="images/dashboard.png" width="100%" alt="CardWatch Dashboard" /> </td> <td width="50%" valign="top"> <p align="center"><b>Operational Monitoring</b></p> <img src="images/dashboard1.png" width="100%" alt="CardWatch Dashboard 2" /> </td> </tr> </table>
+🔀 Pipelines
+<table> <tr> <td width="50%" valign="top"> <p align="center"><b>Kafka Streaming Pipeline</b></p> <img src="images/streaming_pipeline.png" width="100%" alt="Streaming Pipeline" /> </td> <td width="50%" valign="top"> <p align="center"><b>PostgreSQL Ingestion Pipeline (Lakeflow Connect)</b></p> <img src="images/postgres-pipeline.png" width="100%" alt="Postgres Pipeline" /> </td> </tr> </table>
+---
 ## 🛠️ Tech Stack
 
 | Layer | Technology |
