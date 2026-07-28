@@ -1,3 +1,9 @@
+# CardWatch
+
+## Real-Time Credit Card Fraud Detection Platform
+
+Databricks • Apache Spark Structured Streaming • Delta Lake • Apache Kafka • Lakeflow • Unity Catalog
+
 ```mermaid
 flowchart LR
 
