@@ -177,6 +177,7 @@ Amount > Customer Limit
 
 ---
 📸 Screenshots
+
 📊 Dashboards
 <table> <tr> <td width="50%" valign="top"> <p align="center"><b>Fraud &amp; Transaction Overview</b></p> <img src="images/dashboard.png" width="100%" alt="CardWatch Dashboard" /> </td> <td width="50%" valign="top"> <p align="center"><b>Operational Monitoring</b></p> <img src="images/dashboard1.png" width="100%" alt="CardWatch Dashboard 2" /> </td> </tr> </table>
 🔀 Pipelines
