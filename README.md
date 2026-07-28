@@ -88,3 +88,85 @@ Exactly what a bank faces.
     •Fraud intelligence continuously changes
 
     •Operations teams require live dashboards
+
+
+# Features
+
+✅ Real-time transaction ingestion
+
+✅ Streaming fraud watchlist ingestion
+
+✅ Batch customer ingestion
+
+✅ Stream-Static Join
+
+✅ Stream-Stream Join
+
+✅ Watermarking
+
+✅ Tumbling Windows
+
+✅ Sliding Windows
+
+✅ Declarative Data Quality
+
+✅ Delta Lake
+
+✅ Unity Catalog
+
+✅ Email Notifications
+
+✅ Real-time Dashboard
+
+# Medallion Architecture
+
+        •Bronze
+
+            Raw Kafka events
+            Raw JSON files
+            Raw Customer Data
+
+        •Silver
+        
+            Parsing
+            Cleaning
+            Standardisation
+            Data Quality
+            Type conversions
+        
+        •Gold
+        
+            Fraud Alert
+            High Value Alert
+            Window Aggregations
+
+# Fraud Rules
+## Fraud Card Detection
+
+    Stream-Stream Join
+    
+        Transactions
+        
+        INNER JOIN
+        
+        Fraud Watchlist
+    
+    Uses
+    
+        Watermarks
+        Event Time
+        Late Data Handling
+
+# High Value Transaction
+
+    Stream-Static Join
+    
+        Transactions
+        
+        LEFT JOIN
+        
+        Customers
+        
+        ↓
+        
+        Amount > Customer Limit
